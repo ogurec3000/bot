@@ -2647,7 +2647,7 @@ c => c.type === ChannelType.GuildCategory && c.name === '📊 Статус'
 }
 }
 // ==================== ЗАПУСК БОТА ====================
-client.on('ready', () => {
+client.on('ready',  async () => {
 console.log(`🚀 Бот ${client.user.tag} готов к работе!`);
 console.log(`📊 Серверов: ${client.guilds.cache.size}`);
 console.log(`👥 Пользователей: ${client.users.cache.size}`);
